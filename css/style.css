@@ -17,6 +17,7 @@ body{
   background-position: center;
   background-color: #DDDDDD;
   background-image: url("../images/pigeon-background.JPEG");
+  background-repeat: no-repeat;
 }
 
 main{
@@ -26,7 +27,7 @@ main{
 h1{
   color: #c12258;
   font-size: 2em;
-  margin: auto;
+  text-align: center;
   line-height: 200%;
 }
 
@@ -75,7 +76,7 @@ tr:nth-child(even) {
 }
 
 tr:hover {
-  background-color: rgb(126,8,48,.25);
+  background-color: rgb(126,8,32,.25);
 }
 
 /* *{
